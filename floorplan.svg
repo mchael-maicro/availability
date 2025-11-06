@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900" width="1200" height="900" role="img" aria-label="Commercial Floorplan Availability Map">
+  <style>
+    .unit { stroke:#222; stroke-width:2; cursor:pointer; transition:fill 0.15s ease; }
+    .unit-label { font-family: Arial, sans-serif; font-size:12px; fill:#111; pointer-events:none; }
+    .common-area { fill:none; stroke:#666; stroke-dasharray:4 4; }
+    .area-text { font-family: Arial, sans-serif; font-size:11px; fill:#222; pointer-events:none; }
+  </style>
+
+  <rect x="0" y="0" width="1200" height="900" fill="#ffffff" />
+
+  <g id="Row-A">
+    <g id="Shop-1" class="unit"><rect x="20" y="20" width="80" height="120" fill="#ffffff"/><text x="60" y="80" text-anchor="middle" class="unit-label">1</text></g>
+    <g id="Shop-2" class="unit"><rect x="110" y="20" width="80" height="120" fill="#ffffff"/><text x="150" y="80" text-anchor="middle" class="unit-label">2</text></g>
+    <g id="Shop-3" class="unit"><rect x="200" y="20" width="80" height="120" fill="#ffffff"/><text x="240" y="80" text-anchor="middle" class="unit-label">3</text></g>
+    <g id="Shop-4" class="unit"><rect x="290" y="20" width="80" height="120" fill="#ffffff"/><text x="330" y="80" text-anchor="middle" class="unit-label">4</text></g>
+    <g id="Shop-5" class="unit"><rect x="380" y="20" width="80" height="120" fill="#ffffff"/><text x="420" y="80" text-anchor="middle" class="unit-label">5</text></g>
+    <g id="Shop-6" class="unit"><rect x="470" y="20" width="80" height="120" fill="#ffffff"/><text x="510" y="80" text-anchor="middle" class="unit-label">6</text></g>
+    <g id="Shop-7" class="unit"><rect x="560" y="20" width="80" height="120" fill="#ffffff"/><text x="600" y="80" text-anchor="middle" class="unit-label">7</text></g>
+    <g id="Shop-8" class="unit"><rect x="650" y="20" width="80" height="120" fill="#ffffff"/><text x="690" y="80" text-anchor="middle" class="unit-label">8</text></g>
+    <g id="Shop-9" class="unit"><rect x="740" y="20" width="80" height="120" fill="#ffffff"/><text x="780" y="80" text-anchor="middle" class="unit-label">9</text></g>
+    <g id="Shop-10" class="unit"><rect x="830" y="20" width="80" height="120" fill="#ffffff"/><text x="870" y="80" text-anchor="middle" class="unit-label">10</text></g>
+    <g id="Shop-11" class="unit"><rect x="920" y="20" width="80" height="120" fill="#ffffff"/><text x="960" y="80" text-anchor="middle" class="unit-label">11</text></g>
+    <g id="Shop-12" class="unit"><rect x="1010" y="20" width="80" height="120" fill="#ffffff"/><text x="1050" y="80" text-anchor="middle" class="unit-label">12</text></g>
+    <g id="Shop-13" class="unit"><rect x="1100" y="20" width="80" height="120" fill="#ffffff"/><text x="1140" y="80" text-anchor="middle" class="unit-label">13</text></g>
+  </g>
+
+  <g id="Row-B">
+    <g id="Shop-15" class="unit"><rect x="20" y="160" width="120" height="80" fill="#ffffff"/><text x="80" y="210" text-anchor="middle" class="unit-label">15</text></g>
+    <g id="Shop-16" class="unit"><rect x="150" y="160" width="120" height="80" fill="#ffffff"/><text x="210" y="210" text-anchor="middle" class="unit-label">16</text></g>
+    <g id="Shop-17" class="unit"><rect x="280" y="160" width="120" height="80" fill="#ffffff"/><text x="340" y="210" text-anchor="middle" class="unit-label">17</text></g>
+    <g id="Shop-18" class="unit"><rect x="410" y="160" width="120" height="80" fill="#ffffff"/><text x="470" y="210" text-anchor="middle" class="unit-label">18</text></g>
+    <g id="Shop-19" class="unit"><rect x="540" y="160" width="120" height="80" fill="#ffffff"/><text x="600" y="210" text-anchor="middle" class="unit-label">19</text></g>
+    <g id="Shop-20" class="unit"><rect x="670" y="160" width="120" height="80" fill="#ffffff"/><text x="730" y="210" text-anchor="middle" class="unit-label">20</text></g>
+    <g id="Shop-21" class="unit"><rect x="800" y="160" width="120" height="80" fill="#ffffff"/><text x="860" y="210" text-anchor="middle" class="unit-label">21</text></g>
+    <g id="Shop-22" class="unit"><rect x="930" y="160" width="120" height="80" fill="#ffffff"/><text x="990" y="210" text-anchor="middle" class="unit-label">22</text></g>
+  </g>
+
+  <g id="Row-C">
+    <g id="Shop-23" class="unit"><rect x="20" y="260" width="200" height="120" fill="#ffffff"/><text x="120" y="330" text-anchor="middle" class="unit-label">23</text></g>
+    <g id="Shop-24" class="unit"><rect x="230" y="260" width="200" height="120" fill="#ffffff"/><text x="330" y="330" text-anchor="middle" class="unit-label">24</text></g>
+    <g id="Shop-25" class="unit"><rect x="440" y="260" width="200" height="120" fill="#ffffff"/><text x="540" y="330" text-anchor="middle" class="unit-label">25</text></g>
+  </g>
+
+  <g id="Row-D">
+    <g id="Shop-26" class="unit"><rect x="660" y="260" width="120" height="120" fill="#ffffff"/><text x="720" y="320" text-anchor="middle" class="unit-label">26</text></g>
+    <g id="Shop-27" class="unit"><rect x="790" y="260" width="120" height="120" fill="#ffffff"/><text x="850" y="320" text-anchor="middle" class="unit-label">27</text></g>
+    <g id="Shop-28" class="unit"><rect x="920" y="260" width="120" height="120" fill="#ffffff"/><text x="980" y="320" text-anchor="middle" class="unit-label">28</text></g>
+    <g id="Shop-29" class="unit"><rect x="20" y="400" width="160" height="120" fill="#ffffff"/><text x="100" y="465" text-anchor="middle" class="unit-label">29</text></g>
+    <g id="Shop-30" class="unit"><rect x="190" y="400" width="160" height="120" fill="#ffffff"/><text x="270" y="465" text-anchor="middle" class="unit-label">30</text></g>
+    <g id="Shop-31" class="unit"><rect x="360" y="400" width="160" height="120" fill="#ffffff"/><text x="440" y="465" text-anchor="middle" class="unit-label">31</text></g>
+    <g id="Shop-32" class="unit"><rect x="530" y="400" width="160" height="120" fill="#ffffff"/><text x="610" y="465" text-anchor="middle" class="unit-label">32</text></g>
+    <g id="Shop-33" class="unit"><rect x="700" y="400" width="160" height="120" fill="#ffffff"/><text x="780" y="465" text-anchor="middle" class="unit-label">33</text></g>
+    <g id="Shop-34" class="unit"><rect x="870" y="400" width="160" height="120" fill="#ffffff"/><text x="950" y="465" text-anchor="middle" class="unit-label">34</text></g>
+    <g id="Shop-35" class="unit"><rect x="1040" y="400" width="120" height="120" fill="#ffffff"/><text x="1100" y="465" text-anchor="middle" class="unit-label">35</text></g>
+    <g id="Shop-36" class="unit"><rect x="20" y="540" width="260" height="120" fill="#ffffff"/><text x="150" y="605" text-anchor="middle" class="unit-label">36</text></g>
+    <g id="Shop-37" class="unit"><rect x="300" y="540" width="260" height="120" fill="#ffffff"/><text x="430" y="605" text-anchor="middle" class="unit-label">37</text></g>
+    <g id="Shop-38" class="unit"><rect x="580" y="540" width="260" height="120" fill="#ffffff"/><text x="710" y="605" text-anchor="middle" class="unit-label">38</text></g>
+    <g id="Shop-39" class="unit"><rect x="860" y="540" width="160" height="120" fill="#ffffff"/><text x="940" y="605" text-anchor="middle" class="unit-label">39</text></g>
+    <g id="Shop-40" class="unit"><rect x="1030" y="540" width="160" height="120" fill="#ffffff"/><text x="1110" y="605" text-anchor="middle" class="unit-label">40</text></g>
+    <g id="Shop-41" class="unit"><rect x="20" y="680" width="560" height="180" fill="#ffffff"/><text x="300" y="770" text-anchor="middle" class="unit-label">41</text></g>
+    <g id="Shop-42" class="unit"><rect x="600" y="680" width="560" height="180" fill="#ffffff"/><text x="880" y="770" text-anchor="middle" class="unit-label">42</text></g>
+  </g>
+
+  <!-- container for area text labels (we'll add <text> elements near each shop) -->
+  <g id="areas"></g>
+
+  <rect x="20" y="820" width="1160" height="40" class="common-area"/>
+  <text x="600" y="845" text-anchor="middle" class="unit-label">Common Corridor</text>
+</svg>

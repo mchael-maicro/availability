@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Availability Map - Demo (Excel / Google Sheet)</title>
+  <style>
+    body { font-family: Arial, Helvetica, sans-serif; margin: 0; padding: 16px; background:#f7f7f7; }
+    .map-wrap { max-width: 1200px; margin: 0 auto; background:white; padding:12px; border-radius:8px; box-shadow: 0 6px 18px rgba(0,0,0,0.08); }
+    .legend { display:flex; gap:12px; margin-bottom:12px; align-items:center; flex-wrap:wrap; }
+    .legend .item { display:flex; gap:8px; align-items:center; font-size:14px; }
+    .sw { width:18px; height:18px; border-radius:3px; display:inline-block; }
+    #svg-container { width:100%; overflow:auto; border:1px solid #eee; border-radius:6px; background:#fff; }
+    .area-label { font-size:11px; fill:#222; pointer-events:none; }
+  </style>
+</head>
+<body>
+  <div class="map-wrap">
+    <h1>Commercial Availability Map (Excel / Google Sheet)</h1>
+
+    <div class="legend" aria-hidden="true">
+      <div class="item"><span class="sw" style="background:#4CAF50"></span>Available</div>
+      <div class="item"><span class="sw" style="background:#F44336"></span>Sold</div>
+      <div class="item"><span class="sw" style="background:#FFC107"></span>Reserved</div>
+      <div class="item"><span class="sw" style="background:#9E9E9E"></span>Unavailable</div>
+    </div>
+
+    <p>Instructions: Edit <code>script.js</code> to set either <code>SHEET_CSV_URL</code> (for Google Sheets) or <code>EXCEL_URL</code> (for a OneDrive/Share link to the .xlsx/.xls file). The script will read the table column <strong>C3:C44</strong> and display values next to the corresponding Shop-1..Shop-42 units.</p>
+
+    <div id="svg-container" aria-live="polite" aria-atomic="true">
+      <!-- SVG will be loaded here from floorplan.svg -->
+    </div>
+  </div>
+
+  <!-- SheetJS (XLSX) for client-side Excel parsing -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.18.5/xlsx.full.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
